@@ -1,0 +1,17 @@
+{
+  "name": "gvmess",
+  "version": "1.0.0",
+  "description": "mess management web app using vitepress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev app",
+    "docs:build": "vitepress build app",
+    "docs:preview": "vitepress preview app"
+  },
+  "author": "mvmidhun",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.44"
+  }
+}
