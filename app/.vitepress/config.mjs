@@ -5,7 +5,6 @@ export default defineConfig({
   title: "GV MESS",
   description: "A mess management web app",
   cleanUrls: true,
-
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -19,17 +18,21 @@ export default defineConfig({
     sidebar: [
       { text: 'Timetable', link: '/timetable' },
       { text: 'Notifications', link: '/notifications' },
-      { text: 'Fee Logs', link: '/feelogs' }
+      { text: 'Fee Logs', link: '/feelogs' },
+      { text: 'Contribution', link:'/contributing' }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/venkatmidhunmareedu/GVmess' }
     ],
 
     footer:
     {
-      message: "Designed and developed by <a href='#' target='_blank'>our contributors</a>",
+      message: "Designed and developed by <a href='https://github.com/venkatmidhunmareedu/GVmess/graphs/contributors' target='_blank'>our contributors</a>",
       copyright: 'Copyright © 2024 GV mess management'
+    },
+    search: {
+      provider: 'local'
     }
   }
 })

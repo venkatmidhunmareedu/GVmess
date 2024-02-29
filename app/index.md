@@ -14,12 +14,14 @@ hero:
       text: View Fee logs
       link: /feelogs
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-# ---
-
+features:
+  - icon: 📅
+    title: Easy Look Up Mess menu
+    details: "Click on 'View Timetable' to see the food menu available for this week"
+  - icon: 🔔
+    title: Timely Notifications
+    details: "Don't miss out on exciting mess events! Go to the 'Notifications' tab to stay informed about Special meals and celebrations, Menu changes and updates, Important announcements and reminders"
+  - icon: 🧾
+    title: Mess Fee Logs
+    details: Review your mess fees by clicking on Fee logs
+---
